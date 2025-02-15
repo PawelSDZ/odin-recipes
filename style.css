@@ -21,6 +21,8 @@
 .image {
     margin: 10px;
     float: left;
+    display: block;
+    margin-right: 50px;
 }
 
 .description {
@@ -28,31 +30,27 @@
     margin-left: 10px;
 }
 
-.ingredients {
-    margin-left: 680px;
-}
-
-.ingredients.ramen {
-    margin-left: 750px;
-}
-
-.ingredients.chicken {
-    margin-left: 750px;
-}
-
 .steps {
-    margin-left: 680px;
+    margin-left: 10px;
 }
 
-.steps.ramen {
-    margin-left: 750px;
+.ingredients {
+    border-color: black;
+    border-bottom: 4px dotted black;
+    margin-left: auto;
+    width: 70%;
 }
 
-.steps.chicken {
-    margin-left: 750px;
-}
 
 .image-foot {
     text-align: left;
     margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-position: inside;
 }
